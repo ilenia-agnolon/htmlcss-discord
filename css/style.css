@@ -135,18 +135,21 @@
 
     /* ultima sezione principale prima del footer */
      .ultima-sezione-container {
-        background-color: rgb(195, 195, 195);
-        height: 350px;
+        background-color: #f6f6f6;
         display: flex;
-        justify-content: center;
+       justify-content: center;
         align-items: center;
     }
 
-    #box-per-inserire-elementi {
+    #spazio-testo-con-immagine-sotto {
         width: 50%;
-        height: 300px;
-        background-color: rgb(158, 255, 202);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
+
+
 
 
 /* footer */
