@@ -149,7 +149,14 @@
         text-align: center;
     }
 
+    h3 {
+        font-size: 30px;
+    }
 
+#pulsante-scarica-per-mac-viola {
+        background-color: #8ea1e2;
+        color: white;
+    }
 
 
 /* footer */
@@ -195,11 +202,8 @@
         align-items: center;
     }
 
-    .pulsante {
-        height: 25px;
-        width: 60px;
-        background-color: palevioletred;
-        text-align: center;
-       
-    }
+  #pulsante-registrati {
+    background-color: #8ea1e2;
+        color: white;
+}
 
