@@ -4,11 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
 }
 
 /* header */
 .navbar {
-    background-color: cornflowerblue;
+    background-color: #3160e0;
     height: 50px;
     display: flex;
     align-items: center;
@@ -24,36 +25,36 @@
     width: 100%;
 }
 
-.navbar-items {
-        height: 25px;
-        background-color: rgb(255, 212, 105);
-        border: 2px solid black;
-        padding: 0 20px;
-        text-align: center;
+
+#logo img {
+    display: flex;
+    align-items: center; 
 }
 
-#link {
-    flex-grow: 2;
-    justify-content: center;
-    
+.navbar-link-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
 }
 
-#logo,
-#login {
-    flex-grow: 1;
+.navbar-link-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;     
+}
+ 
+#pulsante-accedi {
+    background-color: #fffffb;
+    color: #3160e0;
+    padding: 4px 10px;
+    margin-left: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px;
+    font-weight: bold;
 }
 
-#logo {
-    justify-content: flex-start;
-}
-
-#login {
-    justify-content: flex-end;
-}
-
-/* main */
-
-    /* jumbotron */
+/* jumbotron */
     .jumbotron {
         background-color: rgb(37, 37, 125);
         height: 200px;
@@ -68,6 +69,10 @@
         background-color: rgb(208, 158, 255);
     }
 
+
+/* main */
+
+    
     /* sezione immagini con testo a lato */
    .container-img-e-txt {
         background-color: rgb(255, 255, 255);
