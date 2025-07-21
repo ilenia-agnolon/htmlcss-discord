@@ -44,40 +44,56 @@
     color: white;
     font-weight: bold;     
 }
- 
-#pulsante-accedi {
-    background-color: #fffffb;
-    color: #3160e0;
-    padding: 4px 10px;
+ /*_____________________________________________________________*/
+/* BOTTONI PAGINA */
+.button {
+    padding: 10px 20px;
     margin-left: 10px;
     text-align: center;
     vertical-align: middle;
-    border-radius: 20px;
+    border-radius: 30px;
     font-weight: bold;
+    text-decoration: none;
 }
+/*_____________________________________________________________*/
+
+#pulsante-accedi {
+    background-color: #fffffb;
+    color: #232323;
+}
+ 
 
     /* jumbotron */
+
     .jumbotron {
-        /* DEBUG 
-        background-color: rgb(37, 37, 125);
-        height: 200px;
+        background-image: url(../img/jumbo.png);
+        background-size: cover;
+        background-position: center;
         display: flex;
         justify-content: center;
-        align-items: center;*/
+        align-items: center;
+        height: 400px;
     }
 
-    .jumbotron img {
-        max-width: 100%;
-        height: auto;
-        display: block;
+    h1 {
+        font-size: 50px;
     }
 
-    #box-per-inserire-contenuto {
-        width: 200px;
-        height: 100px;
-        background-color: rgb(208, 158, 255);
+   #testo-jumbotron {
+        width: 50%;
+        color: white;
+        text-align: center;
     }
 
+    #pulsante-scarica-per-mac {
+        background-color: #fffffb;
+        color: #232323;
+    }
+
+    #pulsante-apri-discord {
+        background-color: #23272a;
+        color: white;
+    }
 
 /* main */
 
