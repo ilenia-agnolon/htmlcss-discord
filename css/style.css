@@ -7,7 +7,9 @@
     font-size: 12px;
 }
 
-/* header */
+/* HEADER */
+
+    /* barra di navigazione */
 .navbar {
     background-color: #3160e0;
     height: 50px;
@@ -54,7 +56,7 @@
     font-weight: bold;
 }
 
-/* jumbotron */
+    /* jumbotron */
     .jumbotron {
         background-color: rgb(37, 37, 125);
         height: 200px;
