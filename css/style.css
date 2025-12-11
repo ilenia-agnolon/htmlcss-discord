@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 /* HEADER */
@@ -108,9 +108,7 @@
         align-items: center;
    }
 
-   #container-img-e-txt-grigio {
-        background-color: #f6f6f6;
-   }
+  
 
 
    .immagini {
@@ -229,7 +227,7 @@ footer h3 {
     /* barra finale con logo e pulsante */
     .barra-finale-container {
         height: 50px;
-        background-color: rgb(85, 85, 85);
+        background-color: black;
         display: flex;
         align-items: flex-end;
        justify-content: center;
@@ -238,7 +236,7 @@ footer h3 {
     #container-spazio-logo-e-pulsante {
         height: 40px;
         width: 95%;
-        background-color: aqua;
+        background-color: black;
         display: flex;
         justify-content: space-between;
         align-items: center;
